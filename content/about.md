@@ -2,12 +2,20 @@
 title: "About"
 ---
 
-Wodin is [odin](https://mrc-ide.github.io/odin) on the web, an application that compiles the odin domain specific language for differential equations into JavaScript and allows exploration of dynamical systems without installing any software at all. It has been built by us at [RESIDE](https://reside-ic.github.io) to support teaching activities within the [MRC Centre for Global Infectious Disease Analysis](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/)
+Orderly is our reproducible reporting framework, initially via the R package [`orderly`](https://vaccineimpact.org/orderly) which we are in the process of rewriting and making work with more languages.
 
-It is composed of many moving parts
+It has been built by us at [RESIDE](https://reside-ic.github.io) to support teaching activities within the [MRC Centre for Global Infectious Disease Analysis](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/)
 
-* [`wodin`](https://github.com/mrc-ide/wodin), an [express](https://expressjs.com/)-based API and [TypeScript](typescriptlang.org)/[Vue.js](https://vuejs.org/) based web application
-* [`odin.api`](https://github.com/mrc-ide/odin.api), a [porcelain](https://reside-ic.github.io/porcelain/)/[plumber](https://www.rplumber.io/) API which interfaces between `wodin` and `odin`
-* [`odin`](https://mrc-ide.github.io/odin), a domain specific language (DSL) for expressing systems differential equations
-* [`odin-js`](https://mrc-ide.github.io/odin-js/), JavaScript support code for running odin models in JavaScript
-* [`dopri-js`](https://mrc-ide.github.io/dopri-js/), a differential equation solver written in TypeScript
+It is composed of many moving parts, most of which are in a state of flux
+
+* [`orderly`](https://github.com/vimc/orderly), the original implementation, now frozen
+* [`orderly2`](https://github.com/mrc-ide/orderly2), the new implementation, currently in beta testing
+* [`OrderlyWeb`](https://github.com/vimc/orderly-web), the original web interface
+* [`Packit`](https://github.com/mrc-ide/packit), the new web interface
+* [`outpack`](https://github.com/mrc-ide/outpack), the specificiation that all new implementations conform to
+* [`outpack-py`](https://github.com/reside-ic/outpack), the Python implementation
+* [`outpack_server`](https://github.com/mrc-ide/outpack_server), the Rust implementation and server
+* [`orderly.db`](https://github.com/mrc-ide/orderly.db), database support for `orderly2` (as used by VIMC)
+* [`outpack.orderly`](https://github.com/mrc-ide/outpack.orderly), migration support for orderly1 users
+* [`orderly.helper`](https://github.com/mrc-ide/orderly.helper), compatibility support for users of both orderly1 and orderly2 on different projects
+* [`outpack.sharepoint`](https://github.com/mrc-ide/outpack.sharepoint) a sharepoint location driver

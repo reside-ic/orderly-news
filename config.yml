@@ -1,6 +1,6 @@
-baseURL: "https://reside-ic.github.io/wodin-news/"
+baseURL: "https://reside-ic.github.io/orderly-news/"
 languageCode: "en-gb"
-title: "Wodin News"
+title: "Orderly News"
 theme: ["papermod-changelog", "PaperMod"]
 enableEmoji: true
 
@@ -12,8 +12,8 @@ params:
   hideMeta: false
   ShowPostNavLinks: true
   homeInfoParams:
-    Title: Wodin News
-    Content: What's new and updated in Wodin
+    Title: Orderly News
+    Content: What's new and updated in Orderly
   tags:
     - text: Update
       colour: "#FFBA11"
@@ -33,6 +33,6 @@ menu:
       url: /tags/
       weight: 20
     - identifier: epimodels
-      name: EpiModels
-      url: https://epimodels.dide.ic.ac.uk
+      name: orderly2
+      url: https://mrc-ide.github.io/orderly2
       weight: 30

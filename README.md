@@ -1,6 +1,6 @@
-# wodin-news
+# orderly-news
 
-This is the source for our wodin changelog, it will be deployed to https://reside-ic.github.io/wodin-news
+This is the source for our orderly changelog, it will be deployed to https://reside-ic.github.io/orderly-news
 
 ## Install hugo
 
@@ -9,7 +9,7 @@ This needs a recentish version of hugo (at least 0.83), which might not get on w
 ## Download source
 
 ```
-git clone --recursive git@github.com:reside-ic/wodin-news
+git clone --recursive git@github.com:reside-ic/orderly-news
 ```
 
 ## Create a new post
@@ -27,7 +27,7 @@ The front matter options that might be useful:
 title: "Add a title here"
 date: 2022-10-20T13:51:48+01:00
 tags: ["Feature"]
-version: ["wodin v0.1.4"]
+version: ["orderly v0.1.4"]
 ---
 ```
 
@@ -38,7 +38,7 @@ Please include a tag in your post header using `tags: ["Feature"]`. Please use o
 * Update - a smaller update to something in the UI, or a less user facing update change, or a change to logic
 * App - a whole new app type
 
-Include a version with the `version` field (e.g., `version: ["wodin v0.1.4"]`).
+Include a version with the `version` field (e.g., `version: ["orderly v0.1.4"]`).
 
 ## Develop
 
@@ -46,7 +46,7 @@ Include a version with the `version` field (e.g., `version: ["wodin v0.1.4"]`).
 hugo serve
 ```
 
-Visit http://localhost:1313/wodin-news/ to see changes, editing the file will reflect immediately
+Visit http://localhost:1313/orderly-news/ to see changes, editing the file will reflect immediately
 
 ## Docs
 
